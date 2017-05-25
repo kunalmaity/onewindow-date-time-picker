@@ -20,6 +20,7 @@ Or use Bower (thank you krico for setup)
 bower install --save bootstrap-ui-datetime-picker-onewindow
 ```
 and link with `bower_components/onewindow-date-time-picker/dist/datetime-picker.js`
+and link with `bower_components/onewindow-date-time-picker/dist/ui-bootstrap-tpls.js`
 
 
 
