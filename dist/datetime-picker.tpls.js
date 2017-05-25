@@ -6354,10 +6354,12 @@ angular.module('ui.bootstrap.timepicker', [])
 
   this.render = function() {
     var date = ngModelCtrl.$viewValue;
-
+    if (isNaN(date)) {
+      date = new Date();
+    }
 	if (date) {
-		selected = date;
-	}
+        selected = date;
+    }
 
 	if (selected < min || selected > max) {
 		ngModelCtrl.$setValidity('time', false);
