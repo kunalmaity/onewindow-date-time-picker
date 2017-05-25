@@ -1,0 +1,17 @@
+{
+  "name": "onewindow-date-time-picker",
+  "description": "This bower package will be used for onewindow-date-time-picker",
+  "main": "server.js",
+  "authors": [
+    "Kunal Maity"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
