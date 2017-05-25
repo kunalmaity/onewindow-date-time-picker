@@ -1,7 +1,7 @@
 // This code has been modified to meet only one window date & time picker requirement
-// but base logic is developed by Gillardo
-// https://github.com/Gillardo/bootstrap-ui-datetime-picker
-// Version: 2.2.4
+// but base logic is developed by Gillardo(https://github.com/Gillardo/bootstrap-ui-datetime-picker)
+// https://github.com/kunalmaity/onewindow-date-time-picker
+// Version: 1.0.0
 // Released: 2017-05-25
 angular.module('ui.bootstrap.onedatetimepicker', ['ui.bootstrap.dateparser', 'ui.bootstrap.position'])
     .constant('uiDatetimePickerConfig', {
