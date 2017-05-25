@@ -12,7 +12,7 @@ module.exports = function (grunt) {
                 ],
                 dest: 'dist/datetime-picker.tpls.js',
                 options: {
-                    module: 'ui.bootstrap.datetimepicker',
+                    module: 'ui.bootstrap.onedatetimepicker',
                     htmlmin: {
                         collapseBooleanAttributes: true,
                         collapseWhitespace: true,

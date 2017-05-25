@@ -1,4 +1,4 @@
-angular.module('ui.bootstrap.datetimepicker').run(['$templateCache', function($templateCache) {
+angular.module('ui.bootstrap.onedatetimepicker').run(['$templateCache', function($templateCache) {
   'use strict';
 
   $templateCache.put('template/date-picker.html',

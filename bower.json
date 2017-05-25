@@ -1,11 +1,11 @@
 {
-  "name": "bootstrap-ui-datetime-picker",
-  "version": "2.6.0",
-  "homepage": "https://github.com/Gillardo/bootstrap-ui-datetime-picker",
+  "name": "bootstrap-ui-datetime-picker-onewindow",
+  "version": "2.6.1",
+  "homepage": "https://github.com/kunalmaity/onewindow-date-time-picker",
   "authors": [
     "Gillardo <darren.gillard81@gmail.com>"
   ],
-  "description": "AngularJs directive to use a date and/or time picker as a dropdown from an input",
+  "description": "AngularJs directive to use a date and/or time picker as a dropdown from an input through sinle popup",
   "license": "MIT",
   "main": [
     "dist/datetime-picker.js"
