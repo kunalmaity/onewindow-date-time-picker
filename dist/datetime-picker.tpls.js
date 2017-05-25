@@ -6355,23 +6355,18 @@ angular.module('ui.bootstrap.timepicker', [])
   this.render = function() {
     var date = ngModelCtrl.$viewValue;
 
-    if (isNaN(date)) {
-      ngModelCtrl.$setValidity('time', false);
-      $log.error('Timepicker directive: "ng-model" value must be a Date object, a number of milliseconds since 01.01.1970 or a string representing an RFC2822 or ISO 8601 date.');
-    } else {
-      if (date) {
-        selected = date;
-      }
+	if (date) {
+		selected = date;
+	}
 
-      if (selected < min || selected > max) {
-        ngModelCtrl.$setValidity('time', false);
-        $scope.invalidHours = true;
-        $scope.invalidMinutes = true;
-      } else {
-        makeValid();
-      }
-      updateTemplate();
-    }
+	if (selected < min || selected > max) {
+		ngModelCtrl.$setValidity('time', false);
+		$scope.invalidHours = true;
+		$scope.invalidMinutes = true;
+	} else {
+		makeValid();
+	}
+	updateTemplate();
   };
 
   // Call internally when we know that model is valid.
