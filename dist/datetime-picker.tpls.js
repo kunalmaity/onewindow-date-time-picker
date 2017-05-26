@@ -1949,7 +1949,7 @@ angular.module('ui.bootstrap.position', [])
 
 angular.module('ui.bootstrap.datepicker', ['ui.bootstrap.dateparser', 'ui.bootstrap.isClass', 'ui.bootstrap.position'])
 
-.value('$datepickerSuppressError', false)
+.value('$datepickerSuppressError', true)
   .value('uibDatepickerAttributeWarning', true)
 
 .constant('uibDatepickerConfig', {

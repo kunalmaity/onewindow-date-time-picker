@@ -64,6 +64,7 @@ angular.module('ui.bootstrap.onedatetimepicker', ['ui.bootstrap.dateparser', 'ui
                 scope.buttonBar = angular.isDefined(attrs.buttonBar) ? scope.$parent.$eval(attrs.buttonBar) : uiDatetimePickerConfig.buttonBar;
 				
 				scope.timezoneBar = angular.isDefined(attrs.timezoneBar) ? attrs.timezoneBar : false;
+				scope.timePanel = angular.isDefined(attrs.timePanel) ? true : false;
 
                 scope.doShow('time');
                 // determine which pickers should be available. Defaults to date and time
@@ -108,7 +109,7 @@ angular.module('ui.bootstrap.onedatetimepicker', ['ui.bootstrap.dateparser', 'ui
                 // popup element used to display calendar
                 var popupEl = angular.element('' +
                     '<div date-picker-wrap>' +
-                    '<div uib-datepicker></div><div uib-timepicker style="margin:0 auto"></div>' +
+                    '<div uib-datepicker></div><div uib-timepicker style="margin:0 auto" ng-if="timePanel == true"></div>' +
                     '</div>');
 
                 scope.ngModelOptions = angular.copy(ngModelOptions);
