@@ -3,7 +3,7 @@
   "version": "2.6.1",
   "homepage": "https://github.com/kunalmaity/onewindow-date-time-picker",
   "authors": [
-    "Gillardo <kunal.maity@gmail.com>"
+    "kunal <kunal.maity@gmail.com>"
   ],
   "description": "AngularJs directive to use a date and/or time picker as a dropdown from an input through sinle popup",
   "license": "MIT",
